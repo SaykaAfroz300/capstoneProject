@@ -1,0 +1,10 @@
+# Core Backend Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# For production deployment with actual models (optional - install when ready)
+# torch>=2.0.0
+# transformers>=4.35.0
+# sentencepiece>=0.1.99
+# accelerate>=0.25.0
